@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/transparent"
+    android:id="@+id/kjkkkk">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                   RECHARGE"
+        android:id="@+id/tv6"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF6625"
+        style="@style/CustomActionBarTheme"
+        android:autoText="false"
+        android:textSize="35dp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/pd2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif"
+        android:hint="Recharge Code"
+        android:textColor="@android:color/black"
+        android:layout_gravity="right"
+        android:inputType="number" />
+
+
+</LinearLayout>

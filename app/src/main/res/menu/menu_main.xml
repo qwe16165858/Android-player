@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+
+
+    >
+    <item android:id="@+id/action_Sign_in" android:title="Login" android:icon="@drawable/head"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_store" android:title="Store"
+        android:orderInCategory="100" android:showAsAction="never" android:icon="@drawable/head"/>
+    <item android:id="@+id/action_Local" android:title="Local"
+        android:orderInCategory="100" android:showAsAction="never" android:icon="@drawable/head"/>
+    <item android:id="@+id/action_ShoppingCart" android:title="ShoppingCart"
+        android:orderInCategory="100" android:showAsAction="never" android:icon="@drawable/head"/>
+    <item android:id="@+id/action_Recharge" android:title="Recharge"
+        android:orderInCategory="100" android:showAsAction="never" android:icon="@drawable/head"/>
+    <item
+        android:id="@+id/action_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/search"
+        android:icon="@drawable/search"
+        ></item>
+</menu>

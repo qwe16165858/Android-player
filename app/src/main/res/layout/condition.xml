@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="                  CONDITION"
+        android:id="@+id/tv6"
+        android:layout_gravity="center_horizontal"
+        android:background="#FF6625"
+        style="@style/CustomActionBarTheme"
+        android:autoText="false"
+        android:textSize="35dp"
+        android:textStyle="normal|bold" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:id="@+id/lv2"
+        android:background="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:cacheColorHint="#FF6625"
+        android:listSelector="#FF6625" />
+
+
+</LinearLayout>

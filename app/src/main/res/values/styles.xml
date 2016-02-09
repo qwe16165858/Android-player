@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Styled" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/accentColor</item>
+        <item name="android:background">@color/primaryColorDark</item>
+
+        <item name="backgroundSplit">@color/primaryColor</item>
+        <item name="android:backgroundSplit">@color/abs__primary_text_disable_only_holo_dark</item>
+    </style>
+</resources>
